@@ -1,0 +1,40 @@
+@font-face {
+  font-family: eurostileblack;
+  src: url(/css/font/EurostileExtended-Black.woff);
+}
+
+@font-face {
+  font-family: eurostile;
+  src: url(/css/font/EurostileExtended-Roman.woff);
+}
+
+@font-face {
+  font-family: lsssf;
+  src: url('lsssf.ttf') format('truetype'),
+       url('lsssf.woff') format('woff');
+  unicode-range: U+E020-E0DB;
+}
+
+.gray-bg, pre {
+  background: #36393F;
+  color: #FFFFFF;
+}
+
+.bold {
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: eurostileblack;
+}
+.glow {
+  text-shadow: 0 0 5px #03f, 0 0 15px #00f;
+}
+
+
+h2, h3 {
+  color: #FFFFFF;
+  font-family: eurostile;
+}
