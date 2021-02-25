@@ -15,7 +15,7 @@
   unicode-range: U+E020-E0DB;
 }
 
-.gray-bg, pre {
+.gray-bg, .gray-bg.body-small, pre {
   background: #36393F;
   color: #FFFFFF;
 }
